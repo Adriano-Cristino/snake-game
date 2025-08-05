@@ -1,0 +1,27 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "A classic Snake game implemented in vanilla HTML, CSS, and JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "lint": "eslint script.js",
+    "lint:fix": "eslint script.js --fix",
+    "format": "prettier --write *.js *.css *.html",
+    "format:check": "prettier --check *.js *.css *.html"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "javascript",
+    "html5",
+    "canvas"
+  ],
+  "author": "Adriano Cristino",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "prettier": "^3.6.2"
+  }
+}
